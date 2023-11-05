@@ -26,7 +26,8 @@ const Dashboard = () => {
         <Layout>
             {/* About ME */}
             <section style={{
-                background: '#4ecdc4'
+                background: '#4ecdc4',
+                paddingTop: '5rem',
                 // backgroundImage: `url(${process.env.PUBLIC_URL}/bg.jpg)`,
                 // backgroundSize: '100%',
                 // backgroundRepeat: 'no-repeat',
@@ -39,7 +40,8 @@ const Dashboard = () => {
 
             {/* Menu */}
             <section style={{
-                background: '#292f36'
+                background: '#292f36',
+                paddingTop: '5rem',
             }}
             >
                 <Container maxWidth="lg" sx={{ padding: '1rem' }}>
@@ -49,7 +51,8 @@ const Dashboard = () => {
 
             {/* Skills */}
             <section style={{
-                background: '#F6F1E9'
+                background: '#F6F1E9',
+                paddingTop: '5rem',
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem' }}>
                     <SkillsMenu></SkillsMenu>
@@ -58,7 +61,8 @@ const Dashboard = () => {
 
             {/* Work Experience */}
             <section style={{
-                background: '#292f36'
+                background: '#292f36',
+                paddingTop: '5rem',
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem' }} data-aos="fade-up" data-aos-duration="1000">
                     <WorkExperience></WorkExperience>
@@ -67,7 +71,8 @@ const Dashboard = () => {
 
             {/* Portofolio */}
             <section style={{
-                background: '#F6F1E9'
+                background: '#F6F1E9',
+                paddingTop: '5rem',
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem' }}>
                     <Projects></Projects>
@@ -77,6 +82,7 @@ const Dashboard = () => {
             {/* Footer */}
             <section style={{
                 background: '#292f36',
+                paddingTop: '5rem',
                 borderBottom: '2px solid #f7fff7'
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem' }}>
@@ -84,7 +90,8 @@ const Dashboard = () => {
                 </Container>
             </section>
             <section style={{
-                background: '#292f36'
+                background: '#292f36',
+                paddingTop: '5rem',
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem', display: 'flex', justifyContent: 'center' }}>
                     <Typography variant='body2' sx={{ color: '#f7fff7', fontFamily: 'Poppins' }}>&copy; <span style={{ color: '#4ecdc4' }}>2023</span> Bryant Sulthan Nugroho</Typography>
