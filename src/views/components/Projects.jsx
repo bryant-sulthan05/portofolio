@@ -49,7 +49,7 @@ const Projects = () => {
                 data-aos="fade-up" data-aos-duration="1000"
             >
                 <Typography variant='body1' gutterBottom sx={{
-                    color: 'text.secondary',
+                    color: '#4ecdc4',
                     fontFamily: 'Poppins',
                     fontSize: '25px',
                     mb: { xs: '.5rem', md: '1rem' }
