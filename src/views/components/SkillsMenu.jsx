@@ -17,8 +17,8 @@ const SkillsMenu = () => {
         AOS.refresh();
     });
     return (
-        <Box sx={{ flexGrow: 1, mt: '3rem', mb: '3rem' }}>
-            <div id="skills" style={{
+        <Box sx={{ flexGrow: 1, mt: '5rem', mb: '5rem' }}>
+            <div style={{
                 display: 'flex',
                 justifyContent: 'center'
             }}
@@ -34,7 +34,7 @@ const SkillsMenu = () => {
                     Skills
                 </Typography>
             </div>
-            <div id="skills" style={{
+            <div style={{
                 display: 'flex',
                 justifyContent: 'center'
             }}
@@ -49,7 +49,7 @@ const SkillsMenu = () => {
                     Basic Skills
                 </Typography>
             </div>
-            <div id="skills" style={{
+            <div style={{
                 display: 'flex',
                 justifyContent: 'center',
                 marginTop: '.5rem',

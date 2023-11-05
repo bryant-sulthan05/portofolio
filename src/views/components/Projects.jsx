@@ -26,8 +26,8 @@ const Projects = () => {
         AOS.refresh();
     });
     return (
-        <Box sx={{ flexGrow: 1, mt: '3rem', mb: '3rem' }}>
-            <div id="portofolio" style={{
+        <Box sx={{ flexGrow: 1, mt: '5rem', mb: '5rem' }}>
+            <div style={{
                 display: 'flex',
                 justifyContent: 'center'
             }}>
@@ -42,7 +42,7 @@ const Projects = () => {
                     Portofolio
                 </Typography>
             </div>
-            <div id="portofolio" style={{
+            <div style={{
                 display: 'flex',
                 justifyContent: 'center'
             }}
