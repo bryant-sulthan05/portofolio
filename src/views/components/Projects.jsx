@@ -58,7 +58,7 @@ const Projects = () => {
                     Lastest Projects
                 </Typography>
             </div>
-            <Grid container spacing={2} sx={{ display: 'flex', justifyContent: 'center' }}>
+            <Grid container spacing={2} sx={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap' }}>
                 <Grid item xs={12} md={4} data-aos="fade-up" data-aos-duration="1000">
                     <Card sx={{ maxWidth: 345 }}>
                         <CardMedia

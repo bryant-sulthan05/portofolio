@@ -45,18 +45,24 @@ const Footer = () => {
                     <Typography variant="body1" gutterBottom sx={{
                         color: '#F6F1E9'
                     }}>
-                        <Typography variant='body1' gutterBottom>
-                            <a href="https://github.com/bryant-sulthan05" target='_blank' id='git' style={{ textDecoration: 'none', color: '#fff' }}>
+                        <Typography variant='body1' gutterBottom sx={{
+                            color: '#f7fff7'
+                        }}>
+                            <a href="https://github.com/bryant-sulthan05" id='git' style={{ textDecoration: 'none', color: '#fff' }}>
                                 <BsGithub></BsGithub>&nbsp;Github
                             </a>
                         </Typography>
-                        <Typography variant='body1' gutterBottom>
-                            <a href="https://blog.bryantproject.my.id/" target='_blank' id='blog' style={{ textDecoration: 'none', color: '#fff' }}>
+                        <Typography variant='body1' gutterBottom sx={{
+                            color: '#f7fff7'
+                        }}>
+                            <a href="https://blog.bryantproject.my.id/" id='blog' style={{ textDecoration: 'none', color: '#fff' }}>
                                 <BsNewspaper></BsNewspaper>&nbsp;Blog
                             </a>
                         </Typography>
-                        <Typography variant='body1' gutterBottom>
-                            <a href="https://instagram.com/bryant_7305?igshid=MzNlNGNkZWQ4Mg==" target='_blank' id='ig' style={{ textDecoration: 'none', color: '#fff' }}>
+                        <Typography variant='body1' gutterBottom sx={{
+                            color: '#f7fff7'
+                        }}>
+                            <a href="https://instagram.com/bryant_7305?igshid=MzNlNGNkZWQ4Mg==" id='ig' style={{ textDecoration: 'none', color: '#fff' }}>
                                 <BsInstagram></BsInstagram>&nbsp;Instagram
                             </a>
                         </Typography>
