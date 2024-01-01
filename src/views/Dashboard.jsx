@@ -87,7 +87,7 @@ const Dashboard = () => {
                 background: '#292f36'
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem', display: 'flex', justifyContent: 'center' }}>
-                    <Typography variant='body2' sx={{ color: '#f7fff7', fontFamily: 'Poppins' }}>&copy; <span style={{ color: '#4ecdc4' }}>2023</span> Bryant Sulthan Nugroho</Typography>
+                    <Typography variant='body2' sx={{ color: '#f7fff7', fontFamily: 'Poppins' }}>&copy; <span style={{ color: '#4ecdc4' }}>2024</span> Bryant Sulthan Nugroho</Typography>
                 </Container>
             </section>
         </Layout >
