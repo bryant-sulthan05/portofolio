@@ -218,6 +218,52 @@ const Home = () => {
                                         }}><BsDownload style={{ strokeWidth: 1.5 }}></BsDownload>&nbsp;&nbsp;&nbsp;Download</Button>
                                     </Typography>
                                 </div>
+                                <div className="cv" style={{
+                                    display: 'flex',
+                                    justifyContent: 'center'
+                                }}>
+                                    <Typography variant='subtitle' gutterBottom noWrap sx={{
+                                        marginTop: '1.5rem',
+                                        display: { xs: 'flex', md: 'none' }
+                                    }}>
+                                        <Box sx={{
+                                            display: 'flex',
+                                            gap: 3,
+                                            mt: '1rem'
+                                        }}>
+                                            <Link href="https://github.com/bryant-sulthan05" target="_blank" sx={{
+                                                color: 'grey', fontSize: '30px', '&:hover': {
+                                                    color: '#181717'
+                                                }
+                                            }}>
+                                                <BsGithub />
+                                            </Link>
+                                            <Link href="https://www.linkedin.com/in/bryant-sulthan-nugroho-46b81927a/" target="_blank" sx={{
+                                                color: 'grey', fontSize: '30px', '&:hover': {
+                                                    color: '#0D597F'
+                                                }
+                                            }}>
+                                                <BsLinkedin />
+                                            </Link>
+                                            <Link href="https://www.instagram.com/b_ryn_t/" target="_blank" sx={{
+                                                color: 'grey', fontSize: '30px', '&:hover': {
+                                                    color: '#FF0069'
+                                                }
+                                            }}>
+                                                <BsInstagram />
+                                            </Link>
+                                            <Link href="mailto:bryantsulthan22@gmail.com" target="_blank" sx={{
+                                                color: 'grey',
+                                                fontSize: '30px',
+                                                '&:hover': {
+                                                    color: '#EA4335'
+                                                }
+                                            }}>
+                                                <BsEnvelopeFill />
+                                            </Link>
+                                        </Box>
+                                    </Typography>
+                                </div>
                             </div>
                         </Grid>
                     </Grid>
