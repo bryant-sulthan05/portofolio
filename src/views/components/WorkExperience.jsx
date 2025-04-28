@@ -15,7 +15,7 @@ const WorkExperience = () => {
                     mb: { xs: '2rem', md: '1rem' }
                 }}
                 >
-                    Work Experience
+                    Pengalaman Kerja
                 </Typography>
             </div>
             <div id="experience2">
@@ -45,13 +45,24 @@ const WorkExperience = () => {
                 </Typography>
             </div>
             <div id="job-desk" style={{ marginTop: '.5rem' }}>
-                <li style={{ fontWeight: 'bold', color: '#EF7E56' }}>Fullstack</li>
+                <li style={{ fontWeight: 'bold', color: '#EF7E56' }}>Web Developer</li>
                 <Typography variant='body1' gutterBottom sx={{
                     fontFamily: 'Numans',
                     ml: '1.3rem',
                     color: '#f7fff7'
                 }}>
-                    Had an internship at a tax consulting firm as a fullstack web developer. Creating a taxation private tutoring website, which aims to make it easier for people to learn taxation
+                    Membuat website demo pembelajaran berbasis
+                    video yang terdapat fitur berlangganan dan
+                    artikel
+                </Typography>
+                <li style={{ fontWeight: 'bold', color: '#EF7E56', marginTop: '1.5rem' }}>Support Content Creation</li>
+                <Typography variant='body1' gutterBottom sx={{
+                    fontFamily: 'Numans',
+                    ml: '1.3rem',
+                    color: '#f7fff7'
+                }}>
+                    Membantu rekan tim dalam membuat video
+                    promosi
                 </Typography>
             </div>
         </Box>

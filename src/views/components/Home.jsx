@@ -1,12 +1,13 @@
 import React from 'react'
 // mui.component
-import { Avatar, Typography, Button } from '@mui/material'
+import { Avatar, Typography, Button, Link } from '@mui/material'
 import Box from '@mui/material/Box'
 import Grid from '@mui/material/Grid';
 // images
 import profile from '../img/profile.jpg';
 // icons
-import { BsDownload } from 'react-icons/bs'
+import { BsArrowRight, BsDownload } from 'react-icons/bs'
+import { BsGithub, BsInstagram, BsLinkedin, BsEnvelopeFill } from 'react-icons/bs';
 
 const Home = () => {
     return (
@@ -97,23 +98,75 @@ const Home = () => {
                                     color: '#305973',
                                     fontFamily: 'bungee inline',
                                 }}>
-                                    About Me
+                                    Tentang Saya
                                 </Typography>
                                 <Typography variant="h1" color="initial"
                                     sx={{
                                         mb: '1.5rem',
                                         borderBottom: '.3rem solid #EF7E56',
                                         borderRadius: '5rem',
-                                        width: '18%',
+                                        width: '28%',
                                     }}>
                                 </Typography>
                                 <Typography variant='body1' gutterBottom sx={{
                                     fontFamily: 'Numans',
                                     textAlign: 'justify',
-                                    color: '#305973'
+                                    color: '#305973',
+                                    mb: '1.5rem'
                                 }}>
-                                    Saya Bryant Sulthan Nugroho. Saya mahasiswa Universitas Gunadarma, Fakultas Teknologi Industri, Program Studi Informatika. Saya memiliki minat pada bidang programming terutama pada bagian backend. Saya mudah beradaptasi dan memiliki rasa penasaran yang tinggi terhadap hal baru dan menarik, terutama di bidang teknologi.
+                                    Saya adalah seorang yang teliti dan memiliki rasa
+                                    penasaran yang tinggi. Saya memiliki minat pada
+                                    bidang programming terutama pada bagian
+                                    backend, saya juga memiliki minat terhadap IoT.
+                                    Saya dapat bekerja secara tim maupun secara
+                                    individu. Saya juga dapat beradaptasi dengan hal
+                                    baru sehingga saya dapat diandalkan.
                                 </Typography>
+                                <Typography variant='subtitle' sx={{
+                                    fontWeight: 'bold',
+                                    color: '#305973',
+                                    fontFamily: 'bungee inline',
+                                    fontSize: '18px'
+                                }}>
+                                    Kontak <BsArrowRight style={{ strokeWidth: 1.5 }} />
+                                </Typography>
+                                <Box sx={{
+                                    display: 'flex',
+                                    gap: 3,
+                                    mb: 2,
+                                    mt: '1rem'
+                                }}>
+                                    <Link href="https://github.com/bryant-sulthan05" target="_blank" sx={{
+                                        color: 'grey', fontSize: '30px', '&:hover': {
+                                            color: '#181717'
+                                        }
+                                    }}>
+                                        <BsGithub />
+                                    </Link>
+                                    <Link href="https://www.linkedin.com/in/bryant-sulthan-nugroho-46b81927a/" target="_blank" sx={{
+                                        color: 'grey', fontSize: '30px', '&:hover': {
+                                            color: '#0D597F'
+                                        }
+                                    }}>
+                                        <BsLinkedin />
+                                    </Link>
+                                    <Link href="https://www.instagram.com/b_ryn_t/" target="_blank" sx={{
+                                        color: 'grey', fontSize: '30px', '&:hover': {
+                                            color: '#FF0069'
+                                        }
+                                    }}>
+                                        <BsInstagram />
+                                    </Link>
+                                    <Link href="mailto:bryantsulthan22@gmail.com" target="_blank" sx={{
+                                        color: 'grey',
+                                        fontSize: '30px',
+                                        '&:hover': {
+                                            color: '#EA4335'
+                                        }
+                                    }}>
+                                        <BsEnvelopeFill />
+                                    </Link>
+                                </Box>
                             </div>
                         </Grid>
                         <Grid item size={{ xs: 12, md: 9 }} sx={{
@@ -128,7 +181,7 @@ const Home = () => {
                                         color: '#EF7E56',
                                         fontFamily: 'bungee inline',
                                     }}>
-                                        About Me
+                                        Tentang Saya
                                     </Typography>
                                 </div>
                                 <Typography variant='body1' gutterBottom sx={{
@@ -136,7 +189,13 @@ const Home = () => {
                                     textAlign: 'center',
                                     color: '#305973'
                                 }}>
-                                    Saya Bryant Sulthan Nugroho. Saya mahasiswa Universitas Gunadarma, Fakultas Teknologi Industri, Program Studi Informatika. Saya memiliki minat pada bidang programming terutama pada bagian backend. Saya mudah beradaptasi dan memiliki rasa penasaran yang tinggi terhadap hal baru dan menarik, terutama di bidang teknologi.
+                                    Saya adalah seorang yang teliti dan memiliki rasa
+                                    penasaran yang tinggi. Saya memiliki minat pada
+                                    bidang programming terutama pada bagian
+                                    backend, saya juga memiliki minat terhadap IoT.
+                                    Saya dapat bekerja secara tim maupun secara
+                                    individu. Saya juga dapat beradaptasi dengan hal
+                                    baru sehingga saya dapat diandalkan.
                                 </Typography>
                                 <div className="cv" style={{
                                     display: 'flex',
@@ -163,8 +222,8 @@ const Home = () => {
                         </Grid>
                     </Grid>
                 </Box>
-            </Grid>
-        </Grid>
+            </Grid >
+        </Grid >
     )
 }
 

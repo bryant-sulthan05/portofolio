@@ -26,7 +26,7 @@ const Dashboard = () => {
     return (
         <Layout>
             {/* About ME */}
-            <section style={{
+            <section id='home' style={{
                 background: '#F7F6E7'
             }}>
                 <Container maxWidth="lg" sx={{ padding: '1rem' }}>

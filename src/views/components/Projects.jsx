@@ -72,23 +72,7 @@ const Projects = () => {
                     backgroundColor: '#EF7E56'
                 }} />
             </div>
-            <div id="portofolio" style={{
-                display: 'flex',
-                justifyContent: 'center'
-            }}
-                data-aos="fade-up" data-aos-duration="1000"
-            >
-                <Typography variant='body1' gutterBottom sx={{
-                    color: '#305973',
-                    fontFamily: 'Numans',
-                    fontSize: '25px',
-                    mb: { xs: '.5rem', md: '1rem' }
-                }}
-                >
-                    Latest Projects
-                </Typography>
-            </div>
-            <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center' }}>
+            <Grid container spacing={3} sx={{ display: 'flex', justifyContent: 'center', mt: '2rem' }}>
                 {repos.map((repo, index) => (
                     <Grid item xs={12} md={3} key={repo.id} data-aos="fade-up" data-aos-duration={1000 + index * 500}>
                         <Card sx={{ maxWidth: 345 }}>

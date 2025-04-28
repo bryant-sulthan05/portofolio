@@ -41,7 +41,7 @@ const SkillsMenu = () => {
                     mb: { xs: '.5rem', md: '1rem' }
                 }}
                 >
-                    Skills
+                    Skill
                 </Typography>
             </div>
             <div style={{
@@ -389,6 +389,111 @@ const SkillsMenu = () => {
                                             mb: '.5rem'
                                         }}>
                                             MYSQL
+                                        </Typography>
+                                    </Typography>
+                                </Typography>
+                            </Item>
+                        </Grid>
+                        <Grid iten size={{ xs: 4, md: 2.6 }}>
+                            <Item sx={{
+                                background: '#F7F6E7',
+                                border: '3px solid #EF7E56',
+                                borderRadius: '10px',
+                                borderBottom: '6px solid #EF7E56',
+                            }}
+                                data-aos="fade-up" data-aos-duration="1000"
+                            >
+                                <Typography sx={{
+                                    display: { xs: 'flex', md: 'flex' },
+                                    justifyContent: { xs: 'center', md: 'space-between' },
+                                }}>
+                                    <Tooltip title="Ms. Word" placement='bottom'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+                                            <path fill="#2196F3" d="M41,10H25v28h16c0.553,0,1-0.447,1-1V11C42,10.447,41.553,10,41,10z"></path><path fill="#FFF" d="M25 15.001H39V17H25zM25 19H39V21H25zM25 23.001H39V25.001H25zM25 27.001H39V29H25zM25 31H39V33.001H25z"></path><path fill="#0D47A1" d="M27 42L6 38 6 10 27 6z"></path><path fill="#FFF" d="M21.167,31.012H18.45l-1.802-8.988c-0.098-0.477-0.155-0.996-0.174-1.576h-0.032c-0.043,0.637-0.11,1.162-0.197,1.576l-1.85,8.988h-2.827l-2.86-14.014h2.675l1.536,9.328c0.062,0.404,0.111,0.938,0.143,1.607h0.042c0.019-0.498,0.098-1.051,0.223-1.645l1.97-9.291h2.622l1.785,9.404c0.062,0.348,0.119,0.846,0.17,1.511h0.031c0.02-0.515,0.073-1.035,0.16-1.563l1.503-9.352h2.468L21.167,31.012z"></path>
+                                        </svg>
+                                    </Tooltip>
+                                    <Typography sx={{
+                                        display: { xs: 'none', md: 'flex' },
+                                        marginTop: '.4rem',
+                                        justifyContent: { xs: 'center', md: 'space-between' }
+                                    }}>
+                                        <Typography variant='h6' sx={{
+                                            color: '#305973',
+                                            fontWeight: '600',
+                                            fontFamily: 'Bungee inline',
+                                            mb: '.5rem'
+                                        }}>
+                                            Ms. Word
+                                        </Typography>
+                                    </Typography>
+                                </Typography>
+                            </Item>
+                        </Grid>
+                        <Grid iten size={{ xs: 4, md: 2.6 }}>
+                            <Item sx={{
+                                background: '#F7F6E7',
+                                border: '3px solid #EF7E56',
+                                borderRadius: '10px',
+                                borderBottom: '6px solid #EF7E56',
+                            }}
+                                data-aos="fade-up" data-aos-duration="1000"
+                            >
+                                <Typography sx={{
+                                    display: { xs: 'flex', md: 'flex' },
+                                    justifyContent: { xs: 'center', md: 'space-between' },
+                                }}>
+                                    <Tooltip title="Ms. Excel" placement='bottom'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+                                            <path fill="#4CAF50" d="M41,10H25v28h16c0.553,0,1-0.447,1-1V11C42,10.447,41.553,10,41,10z"></path><path fill="#FFF" d="M32 15H39V18H32zM32 25H39V28H32zM32 30H39V33H32zM32 20H39V23H32zM25 15H30V18H25zM25 25H30V28H25zM25 30H30V33H25zM25 20H30V23H25z"></path><path fill="#2E7D32" d="M27 42L6 38 6 10 27 6z"></path><path fill="#FFF" d="M19.129,31l-2.411-4.561c-0.092-0.171-0.186-0.483-0.284-0.938h-0.037c-0.046,0.215-0.154,0.541-0.324,0.979L13.652,31H9.895l4.462-7.001L10.274,17h3.837l2.001,4.196c0.156,0.331,0.296,0.725,0.42,1.179h0.04c0.078-0.271,0.224-0.68,0.439-1.22L19.237,17h3.515l-4.199,6.939l4.316,7.059h-3.74V31z"></path>
+                                        </svg>
+                                    </Tooltip>
+                                    <Typography sx={{
+                                        display: { xs: 'none', md: 'flex' },
+                                        marginTop: '.4rem',
+                                        justifyContent: { xs: 'center', md: 'space-between' }
+                                    }}>
+                                        <Typography variant='h6' sx={{
+                                            color: '#305973',
+                                            fontWeight: '600',
+                                            fontFamily: 'Bungee inline',
+                                            mb: '.5rem'
+                                        }}>
+                                            Ms. Excel
+                                        </Typography>
+                                    </Typography>
+                                </Typography>
+                            </Item>
+                        </Grid>
+                        <Grid iten size={{ xs: 4, md: 3 }}>
+                            <Item sx={{
+                                background: '#F7F6E7',
+                                border: '3px solid #EF7E56',
+                                borderRadius: '10px',
+                                borderBottom: '6px solid #EF7E56',
+                            }}
+                                data-aos="fade-up" data-aos-duration="1000"
+                            >
+                                <Typography sx={{
+                                    display: { xs: 'flex', md: 'flex' },
+                                    justifyContent: { xs: 'center', md: 'space-between' },
+                                }}>
+                                    <Tooltip title="PowerPoint" placement='bottom'>
+                                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+                                            <path fill="#FF8A65" d="M41,10H25v28h16c0.553,0,1-0.447,1-1V11C42,10.447,41.553,10,41,10z"></path><path fill="#FBE9E7" d="M24 29H38V31H24zM24 33H38V35H24zM30 15c-3.313 0-6 2.687-6 6s2.687 6 6 6 6-2.687 6-6h-6V15z"></path><path fill="#FBE9E7" d="M32,13v6h6C38,15.687,35.313,13,32,13z"></path><path fill="#E64A19" d="M27 42L6 38 6 10 27 6z"></path><path fill="#FFF" d="M16.828,17H12v14h3v-4.823h1.552c1.655,0,2.976-0.436,3.965-1.304c0.988-0.869,1.484-2.007,1.482-3.412C22,18.487,20.275,17,16.828,17z M16.294,23.785H15v-4.364h1.294c1.641,0,2.461,0.72,2.461,2.158C18.755,23.051,17.935,23.785,16.294,23.785z"></path>
+                                        </svg>
+                                    </Tooltip>
+                                    <Typography sx={{
+                                        display: { xs: 'none', md: 'flex' },
+                                        marginTop: '.4rem',
+                                        justifyContent: { xs: 'center', md: 'space-between' }
+                                    }}>
+                                        <Typography variant='h6' sx={{
+                                            color: '#305973',
+                                            fontWeight: '600',
+                                            fontFamily: 'Bungee inline',
+                                            mb: '.5rem'
+                                        }}>
+                                            PowerPoint
                                         </Typography>
                                     </Typography>
                                 </Typography>

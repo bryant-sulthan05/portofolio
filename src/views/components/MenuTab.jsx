@@ -41,7 +41,7 @@ const MenuTab = () => {
                                         display: { xs: 'none', md: 'block' }
                                     }}
                                 >
-                                    Skills
+                                    Skill
                                 </Typography>
                                 <Typography
                                     variant='overline'
@@ -82,7 +82,7 @@ const MenuTab = () => {
                                         display: { xs: 'none', md: 'block' }
                                     }}
                                 >
-                                    Work experience
+                                    Pengalaman Kerja
                                 </Typography>
                                 <Typography
                                     variant="overline"
